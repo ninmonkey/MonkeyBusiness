@@ -1,0 +1,18 @@
+        #Predicate that finds format commands that dont meet the criteria
+        # from: JustinGrote: <https://discord.com/channels/180528040881815552/447476164232216576/996603506100273212>
+        $findFormatTable = {
+            param ([Ast]$Ast)
+            
+            #We use a "disqualifying" approach to keep this performant.
+            if ($Ast -isnot [CommandAst]) {return}
+            [CommandAst]$commandAst = $Ast
+            if ($commandAst.GetCommandName() -notin $formatBadList) {return}
+            if ($commandAst.Parent -isnot [PipelineAst]) {return}
+            [PipelineAst]$parent = $commandAst.Parent
+            
+            #If the command is not the last element of the pipeline, we have a match
+            if ($parent.PipelineElements.IndexOf($commandAst) -ne ($parent.length - 1)) {
+                return $true
+            }
+        }
+
