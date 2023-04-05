@@ -185,4 +185,4 @@ function Find-VSCodeScriptAnalyzerConfig {
     $latestLine -replace '^.*?: {', '{' | ConvertFrom-Json | ConvertTo-Json
 }
 
-Find-VSCodeScriptAnalyzerConfig 'ms-vscode.powershell-2022.5.1'
+# Find-VSCodeScriptAnalyzerConfig 'ms-vscode.powershell-2022.5.1'
