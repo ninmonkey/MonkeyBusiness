@@ -1,8 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
+    // 2023-05-02
+    /*
+    <file:///H:\data\2023\pwsh\PsModules\MonkeyBusiness\MonkeyBusiness.2023.code-workspace>
+    <file:///H:\data\2023\pwsh\sketches\2023-04\sketch▸AST%20▸FormatLongLines.code-workspace>
+    */
+    "folders": [
+        {
+            "path": "."
+        }
     ],
     "settings": {}
 }

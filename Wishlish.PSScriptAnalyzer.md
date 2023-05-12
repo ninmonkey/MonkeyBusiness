@@ -1,6 +1,12 @@
+<!--
+
+<file:///H:\data\2023\pwsh\sketches\2023-04\sketch▸AST%20▸FormatLongLines.code-workspace>
+
+-->
+
 # Notes:
 
-- I didn't specifiy severy levels yet (ie: warn / error). 
+- I didn't specifiy severity levels yet (ie: warn / error). 
 - Some of these are not compatible with the `End-Of-Life` versions of `Windows Powrshell` (ie: <= 5 )
 - I'm aiming for `PowerShell 7+` 
 

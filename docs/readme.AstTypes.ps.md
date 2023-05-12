@@ -5,6 +5,8 @@
 - [PSScriptAnalyzerTestHelper.psm1](./../refs_no_commit/PSScriptAnalyzer🍴/Tests/PSScriptAnalyzerTestHelper.psm1)
   - [PSScriptAnalyzerTestHelper.psm1](./psc/PSScriptAnalyzer/Tests/PSScriptAnalyzerTestHelper.psm1)
 
+- <https://github.com/PowerShell/PSScriptAnalyzer/blob/master/docs/Rules/UseConsistentIndentation.md#L0-L1>
+
 ## Module Commands
 
 <!-- Get-ScriptAnalyzerRule -->
